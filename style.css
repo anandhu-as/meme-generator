@@ -1,0 +1,27 @@
+h1 {
+  color: rgb(78, 97, 97);
+}
+.meme-generator {
+  font-family: monospace;
+  text-align: center;
+}
+.meme-generator img {
+  height: 400px;
+  object-fit: cover;
+}
+.meme-btn {
+  padding: 8px 20px;
+  border: none;
+  margin: 25px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 400ms ease;
+}
+.meme-btn:hover {
+  background-color: rgb(126, 136, 136);
+  font-size: 25px;
+}
+.meme-author {
+  margin: 8px;
+  font-size: 16px;
+}
